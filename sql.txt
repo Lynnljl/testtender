@@ -1,0 +1,8 @@
+CREATE TABLE `tender` (
+  `id` int(10) NOT NULL,
+  `titel` varchar(100) NOT NULL,
+  `time` varchar(20) NOT NULL,
+  `from` varchar(100) NOT NULL,
+  `herf` varchar(100) NOT NULL,
+  `content` varchar(1500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
